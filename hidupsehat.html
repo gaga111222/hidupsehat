@@ -1,0 +1,168 @@
+<html>
+<head>
+	<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: Arial;
+		padding: 10px;
+		background: #f1f1f1;
+	}
+
+	/* Header/Blog Title */
+	.header {
+		padding: 30px;
+		text-align: center;
+		background-image: url(gambar1.png);
+	}
+
+	.header h1 {
+		font-size: 50px;
+	}
+
+	/* Style the top navigation bar */
+	.topnav {
+		overflow: hidden;
+		background-color: #333;
+	}
+
+	/* Style the topnav link */
+	.topnav a{
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	/* Change color on hover */
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	} 
+
+	/* Create two u unequal columns that floats next to each other */
+	/* Left column */
+	.leftcolum {
+		float: left;
+		width: 75%;
+	}  
+
+	/* Right column */
+	.rightcolum {
+		float: left;
+		width: 25%;
+		background-color: #f1f1f1;
+		padding-left: 20px;
+	}
+
+	/* Fake image */
+	.fakeimg {
+		background-color: #aaa;
+		width: 100%;
+		padding: 20px;
+	}
+
+	/* Add a card effect for articles */
+	.card {
+		background-color: white;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+	/* clear float after the columns */
+	.row::after {
+		content:  "";
+		display: table;
+		clear: both;
+	}
+
+	/* Footer */
+	.foter {
+		padding: 20px;
+		text-align: center;
+		background: #ddd;
+		margin-top: 20px;
+	}
+
+	/* Responsive layout - when the screen is less than 800px wide, make the twocolumns stack on top of each other instead of next to each  other */
+	@media screen and (max-width: 800px) {
+		.leftcolum, .rightcolum {
+			width: 100%;
+			padding: 0;
+		}
+	}
+	
+	/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+	@media screen and (max-width: 400px) {
+		.topnav a {
+			float: none;
+			width: 100px;
+		}
+	}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>HIDUP SEHAT</h1>
+<p>Hiidup Sehat Berarti Hidup Bahagia</p>
+</div>
+
+<div class="topnav">
+	<a href="hidupsehat.html">HOME</a>
+	<a href="olahraga.html">OLAHRAGA</a>
+	<a href="makanan.html">MAKANAN</a>
+	
+</div> 
+
+<div class="row">
+	<div class="leftcolum">
+		<div class="card">
+			<h2>HIDUP SEHAT</h2>
+			<h5></h5>
+		<img src="hs1.jpg"width="100%"> 
+			<p>HIDUP SEHAT</p>
+			<p>Menjaga pola hidup sehat tentu saja dapat membantu meningkatkan kualitas hidup. Tubuh yang sehat dan bugar dapat membantu dalam menjalankan aktivitas sehari-hari dengan lebih mudah dan meningkatkan kebahagiaan dalam hidup. Selain itu, dengan memiliki tubuh yang sehat, kesehatan mental Anda juga akan lebih terjaga.</p>
+		</div>
+		<div class="card">
+			<h2>ADAPATSI KEBIASAAN BARU</h2>
+			<img src="hs3.jpg"width="100%">
+			<p></p>
+			<p>MEMBIASAKAN KEBIASAAN</p>
+		</div>
+			<div class="card">
+			<h2></h2>
+			<img src="mms.jpeg"width="100%">
+			<p></p>
+			
+		</div>
+	</div>
+	<div class="rightcolum">
+	<div class="card">
+		<h2>cara</h2>
+		<img src="wow2.png">
+		
+	</div>
+	<div class="card">
+		<h3>Popular Post</h3>
+		<img src="hs.jpg">
+	</div>
+	<div class="card">
+		<h3>Follow Me</h3>
+		<img src="ig.jpg">
+		<P>HRDNSYH_6</P>
+	</div>
+</div>
+</div>
+
+<div class="@coppyright2024.HRDNSYH_6">
+<h2>COPPYRIGHT2024.HRDNSYH_6</h2>
+</div>
+
+
+</body>
+</html>
